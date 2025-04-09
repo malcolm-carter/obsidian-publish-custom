@@ -1,6 +1,6 @@
 # Obsidian Publish Customizations
 
-This repository contains CSS and JavaScript customizations for [my Obsidian Publish](https://malcolmcarter.net) site. These are used to improve readability and remove default branding.
+This repository contains CSS and JavaScript customizations for [my Obsidian Publish site](https://malcolmcarter.net). These are used to improve readability and remove default branding.
 
 ## Files
 
