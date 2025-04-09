@@ -1,0 +1,25 @@
+/* Define page width and side padding */
+.published-container {
+  --page-width: 1200px;
+  --page-side-padding: 48px;
+}
+
+/* Set left column width */
+.published-container.is-readable-line-width .site-body-left-column {
+  flex-basis: 300px;
+}
+
+/* Set right column width */
+.published-container.is-readable-line-width .site-body-right-column {
+  width: 320px;
+}
+
+/* Constrain content width to readable maximum */
+.published-container.is-readable-line-width .markdown-preview-sizer {
+  max-width: var(--page-width);
+}
+
+/* Hide "Obsidian" footer link */
+.site-footer a {
+  display: none;
+}
